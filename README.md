@@ -1,6 +1,6 @@
 ## **List of Projects**  
 
-**SLAM Demo: Extended Kalman Filter** [project](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/EKF_Slam)  
+**SLAM Demo: Extended Kalman Filter** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/EKF_Slam)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement) for the simulation. The work also demonstrates a 'full' and 'sparse' matrix update.  
 
 
