@@ -4,7 +4,7 @@
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement) for the simulation. The work also demonstrates a 'full' and 'sparse' matrix update.  
 
 
-**SLAM Demo: Particle Filter**  
+**SLAM Demo: Particle Filter**[(project)](../SLAM_DEMOS/tree/master/PF_FastSlam_GridMap)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
 for the simulation. The work shows : Feature based (cylinder landmarks) and Scan matching (Occupancy Grid Map) based navigation.  
 [Landmark based PF]()  
