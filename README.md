@@ -1,16 +1,15 @@
 ## **List of Projects**  
 
 **SLAM Demo: Extended Kalman Filter**  
-The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
-for the simulation. The work also demonstrates a 'full' and 'sparse' matrix update.  
-[full update EKF]()
-[sparse update EKF]()
+The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement) for the simulation. The work also demonstrates a 'full' and 'sparse' matrix update.  
+[full update EKF]()  
+[sparse update EKF]()  
 
 **SLAM Demo: Particle Filter**  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
 for the simulation. The work shows : Feature based (cylinder landmarks) and Scan matching (Occupancy Grid Map) based navigation.  
-[Landmark based PF]()
-[Scan base PF]() 
+[Landmark based PF]()  
+[Scan base PF]()  
 
 **SLAM Demo: Online Graph**  
 Online Graph SLAM for mapping.  
@@ -87,7 +86,7 @@ This project makes use of the non-linear solver to the optimisation problem of p
 [project]() The development of a differential drive robot base with a depth RGB camera running ROS. The robot motor drive is controlled by  
 Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.
 
-**FFT Robust Gaussian Regression Filter (RGR)**
+**FFT Robust Gaussian Regression Filter (RGR)**  
 [project]() Algorithm for micro defect detections. The core idea is to use RGR to re-engineer the nominal surface form for thresholding.  
 The binary surface residuals can then be detected using convention image processing techniques. 
 
