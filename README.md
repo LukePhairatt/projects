@@ -1,14 +1,17 @@
 ## **List of Projects**  
 
 **SLAM Demo: Extended Kalman Filter** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/EKF_Slam)  
-The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement) for the simulation. The work also demonstrates a 'full' and 'sparse' matrix update.  
+The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement) for the simulation. The work also demonstrates   
+1. full update   
+2. sparse matrix update  
 
 
-**SLAM Demo: Particle Filter**[(project)](../SLAM_DEMOS/tree/master/PF_FastSlam_GridMap)  
+**SLAM Demo: Particle Filter**[(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/PF_FastSlam_GridMap)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
-for the simulation. The work shows : Feature based (cylinder landmarks) and Scan matching (Occupancy Grid Map) based navigation.  
-[Landmark based PF]()  
-[Scan base PF]()  
+for the simulation. The work demonstartes: 
+1. Feature based (cylinder landmarks)  
+2. Scan matching (Occupancy Grid Map) based navigation.  
+
 
 **SLAM Demo: Online Graph**  
 Online Graph SLAM for mapping.  
