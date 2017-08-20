@@ -17,12 +17,10 @@ for the simulation. The work demonstartes:
 Online Graph SLAM for mapping.  
 
 [RawLidarMotion](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/OnlineGraphSlam/RawLidar_Project)  
-The experiment makes use the data from EKF/PF project on the implementation of Scalable Online Graph SLAM for landmarks mapping.  
-I have implemented 2 models of observation: (range and bearing) and (distance x and distance y). The formula is based on a Probabilistic Robotics book (Thrun etc.) for 3DoF robot pose. 
+The experiment makes use the data from EKF/PF project on the implementation of Scalable Online Graph SLAM for landmarks mapping. I have implemented 2 models of observation: (range and bearing) and (distance x and distance y). The formula is based on a Probabilistic Robotics book (Thrun etc.) with 3DoF robot pose. 
 
 [UdacityAI](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/OnlineGraphSlam/UdacityAI_Project)  
-The work here is simpler. It uses the generated measurements (distance to a landmark) and motion command. The robot state is x,y position  
-with no heading. The landmark measurement is a distance x,y from the current robot position. 
+The work here is simpler. It uses the generated measurements (distance to a landmark) and motion command. The robot state is x,y position with no heading. The landmark measurement is a distance x,y from the current robot position. 
 
 **Finding Lane** [project](https://github.com/LukePhairatt/SDC-FindingLaneLines-Project1)  
 Video processing to detect lane lines.
