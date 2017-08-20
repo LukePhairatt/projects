@@ -9,8 +9,8 @@ The project uses the offline data of motions and landmark measurements/observati
 **SLAM Demo: Particle Filter** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/PF_FastSlam_GridMap)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
 for the simulation. The work demonstartes: 
-1. Feature based (cylinder landmarks) [(file)](https://github.com/LukePhairatt/SLAM_DEMOS/blob/master/PF_FastSlam_GridMap/src/pf_slam_lmk.py)   
-2. Scan matching (Occupancy Grid Map) based navigation [(file)](https://github.com/LukePhairatt/SLAM_DEMOS/blob/master/PF_FastSlam_GridMap/src/pf_slam_mapmatching.py)  
+1. Landmark feature approach (cylinder landmarks) [(file)](https://github.com/LukePhairatt/SLAM_DEMOS/blob/master/PF_FastSlam_GridMap/src/pf_slam_lmk.py)   
+2. Scan matching (Occupancy Grid Map) approach [(file)](https://github.com/LukePhairatt/SLAM_DEMOS/blob/master/PF_FastSlam_GridMap/src/pf_slam_mapmatching.py)  
 
 
 **SLAM Demo: Online Graph**  
