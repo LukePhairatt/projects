@@ -87,7 +87,7 @@ This project makes use of the non-linear solver to the optimisation problem of p
 The development of a differential drive robot base with a depth RGB camera running ROS. The robot motor drive is controlled by  
 Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.
 
-**FFT Robust Gaussian Regression Filter (RGR)** [(project)]()  
+**FFT Robust Gaussian Regression Filter (RGR)** [(project)](https://github.com/LukePhairatt/RobustGaussianRegression)  
 Algorithm for micro defect detections. The core idea is to use RGR to re-engineer the nominal surface form for thresholding.  
 The binary surface residuals can then be detected using convention image processing techniques. 
 
