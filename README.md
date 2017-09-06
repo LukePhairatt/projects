@@ -8,7 +8,7 @@ The project uses the offline data of motions and landmark measurements/observati
 
 **SLAM Demo: Particle Filter using Landmarks** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/PF_FastSlam_Lmk)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
-for the simulation. The work demonstartes: 
+for the simulation. The work demonstrates: 
 1. Landmark feature approach (cylinder landmarks) [(file)](https://github.com/LukePhairatt/SLAM_DEMOS/blob/master/PF_FastSlam_Lmk/src/pf_slam_lmk.py)   
 
 
@@ -22,10 +22,10 @@ for the simulation. The work demonstartes:
 Online Graph SLAM for mapping.  
 
 [RawLidarMotion](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/OnlineGraphSlam/RawLidar_Project)  
-The experiment makes use the data from EKF/PF project on the implementation of Scalable Online Graph SLAM for landmarks mapping. I have implemented 2 models of observation: (range and bearing) and (distance x and distance y). The formula is based on a Probabilistic Robotics book (Thrun etc.) with 3DoF robot pose. 
+The experiment makes use the data from EKF/PF project on the implementation of Scalable Online Graph SLAM for landmarks mapping. I have implemented 2 models of the observation process: (range and bearing) and (distance x and distance y). The formula is based on a Probabilistic Robotics book (Thrun etc.) with 3DoF robot pose. 
 
 [UdacityAI](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/OnlineGraphSlam/UdacityAI_Project)  
-The work here is simpler. It uses the generated measurements (distance to a landmark) and motion command. The robot state is x,y position with no heading. The landmark measurement is a distance x,y from the current robot position. 
+The work here provides the basic implementation on the graph update without the formula. It uses the generated measurements (dx,dy distance to a landmark) and motion command (dx,dy motion). The robot state is considering only the x,y position with no heading. The landmark measurement is a distance dx,dy from the current robot position. 
 
 **Finding Lane** [(project)](https://github.com/LukePhairatt/SDC-FindingLaneLines-Project1)  
 Video processing to detect lane lines.
@@ -93,6 +93,6 @@ The development of a differential drive robot base with a depth RGB camera runni
 Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.
 
 **FFT Robust Gaussian Regression Filter (RGR)** [(project)](https://github.com/LukePhairatt/RobustGaussianRegression)  
-Algorithm for micro defect detections. The core idea is to use RGR to re-engineer the nominal surface form for thresholding.  
+Algorithm for micro defect detections(~25 um or more). The core idea is to use RGR to re-engineer the nominal surface for thresholding.  
 The binary surface residuals can then be detected using convention image processing techniques. 
 
