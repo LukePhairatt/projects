@@ -89,10 +89,8 @@ In addition, latency in sending these control commands (e.g. 100 ms) has been ad
 This project makes use of the non-linear solver to the optimisation problem of predicting the control outputs within the given constrains. The constraints are given by cross track error, heading error, control costs, control limits, reference speed for example 
 
 **ROS Robot Development** [(project)](https://github.com/LukePhairatt/ROSRPiArduinoProject)  
-The development of a differential drive robot base with a depth RGB camera running ROS. The robot motor drive is controlled by  
-Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.
+The development of a differential drive robot base with a depth RGB camera running ROS. The robot motor drive is controlled by Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.  
 
 **FFT Robust Gaussian Regression Filter (RGR)** [(project)](https://github.com/LukePhairatt/RobustGaussianRegression)  
-Algorithm for micro defect detections(~25 um or more). The core idea is to use RGR to re-engineer the nominal surface for thresholding.  
-The binary surface residuals can then be detected using convention image processing techniques. 
+Algorithm for micro defect detections(~25 um or more). The core idea is to use RGR to re-engineer the nominal surface for thresholding.The binary surface residuals can then be detected using convention image processing techniques.   
 
