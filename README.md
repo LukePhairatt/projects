@@ -94,3 +94,15 @@ The development of a differential drive robot base with a depth RGB camera runni
 **FFT Robust Gaussian Regression Filter (RGR)** [(project)](https://github.com/LukePhairatt/RobustGaussianRegression)  
 Algorithm for micro defect detections(~25 um or more). The core idea is to use RGR to re-engineer the nominal surface for thresholding.The binary surface residuals can then be detected using convention image processing techniques.   
 
+
+**Line Laser Scanner Hand-Eye Calibration**[(project)](https://github.com/LukePhairatt/LaserHandEyeCalibration)  
+MATLAB implementation of computing 6DoF pose of a line laser scanner frame w.r.t a robot tool frame.   
+
+
+
+
+
+
+
+
+
