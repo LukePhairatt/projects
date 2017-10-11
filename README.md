@@ -88,6 +88,13 @@ In addition, latency in sending these control commands (e.g. 100 ms) has been ad
  
 This project makes use of the non-linear solver to the optimisation problem of predicting the control outputs within the given constrains. The constraints are given by cross track error, heading error, control costs, control limits, reference speed for example 
 
+**Behavior Planning and Trajectory Generation**[(project)](https://github.com/LukePhairatt/SDC-PathPlanning-Project1-T3)  
+The project presents the implementation of behavior planning and spline line trajectory generation for autonomous driving of the self-driving cars on the highway. Behavior of the car is controlled by the associate cost functions to reach the setting goal point.    
+
+**Fully Convolutional Neural Network (FCN) for Image Segmentation**[(project)](https://github.com/LukePhairatt/SDC-Semantic-Segmentation-FCN-Project2-T3)  
+The project implements FCN for the detection of 'Road' and 'Not Road' pixels in the images. FCN utilises VGG-16 model with encoding and decoding with skip layers on the pre-trained VGG model.
+
+
 **ROS Robot Development** [(project)](https://github.com/LukePhairatt/ROSRPiArduinoProject)  
 The development of a differential drive robot base with a depth RGB camera running ROS. The robot motor drive is controlled by Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.  
 
