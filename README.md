@@ -1,7 +1,7 @@
 ## **List of Projects**  
 
 ```sh
-### **SLAM Demos** 
+*** SLAM Demos *** 
 ```
 **Extended Kalman Filter** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/EKF_Slam)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement) for the simulation. The work also demonstrates   
@@ -31,7 +31,7 @@ The experiment makes use the data from EKF/PF project on the implementation of S
 The work here provides the basic implementation on the graph update without the formula. It uses the generated measurements (dx,dy distance to a landmark) and motion command (dx,dy motion). The robot state is considering only the x,y position with no heading. The landmark measurement is a distance dx,dy from the current robot position. 
 
 ```sh
-### **Self-Driving Car Nano Degree Projects** 
+*** Self-Driving Car Nano Degree Projects *** 
 ```
 
 **Finding Lane** [(project)](https://github.com/LukePhairatt/SDC-FindingLaneLines-Project1)  
@@ -103,7 +103,7 @@ The project implements FCN for the detection of 'Road' and 'Not Road' pixels in 
 
 
 ```sh
-### **Robotics and AI Projects** 
+*** Robotics and AI Projects *** 
 ```
 **ROS Robot Development** [(project)](https://github.com/LukePhairatt/ROSRPiArduinoProject)  
 The development of a differential drive robot base with a depth RGB camera running ROS. The robot motor drive is controlled by Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.  
