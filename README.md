@@ -1,24 +1,27 @@
 ## **List of Projects**  
 
-**SLAM Demo: Extended Kalman Filter** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/EKF_Slam)  
+```sh
+### **SLAM Demos** 
+```
+**Extended Kalman Filter** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/EKF_Slam)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement) for the simulation. The work also demonstrates   
 1. Full update   
 2. Sparse matrix update  
 
 
-**SLAM Demo: Particle Filter using Landmarks** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/PF_FastSlam_Lmk)  
+**Particle Filter using Landmarks** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/PF_FastSlam_Lmk)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
 for the simulation. The work demonstrates: 
 1. Landmark feature approach (cylinder landmarks) [(file)](https://github.com/LukePhairatt/SLAM_DEMOS/blob/master/PF_FastSlam_Lmk/src/pf_slam_lmk.py)   
 
 
-**SLAM Demo: Particle Filter using Scan-matching** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/PF_FastSlam_GridMap)  
+**Particle Filter using Scan-matching** [(project)](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/PF_FastSlam_GridMap)  
 The project uses the offline data of motions and landmark measurements/observations (Lidar- range and bearing measurement)  
 for the simulation. The work demonstartes: 
 1. Scan matching (Occupancy Grid Map) approach [(file)](https://github.com/LukePhairatt/SLAM_DEMOS/blob/master/PF_FastSlam_GridMap/src/pf_slam_mapmatching.py)  
 
 
-**SLAM Demo: Online Graph**  
+**Online Graph**  
 Online Graph SLAM for mapping.  
 
 [RawLidarMotion](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/OnlineGraphSlam/RawLidar_Project)  
@@ -26,6 +29,10 @@ The experiment makes use the data from EKF/PF project on the implementation of S
 
 [UdacityAI](https://github.com/LukePhairatt/SLAM_DEMOS/tree/master/OnlineGraphSlam/UdacityAI_Project)  
 The work here provides the basic implementation on the graph update without the formula. It uses the generated measurements (dx,dy distance to a landmark) and motion command (dx,dy motion). The robot state is considering only the x,y position with no heading. The landmark measurement is a distance dx,dy from the current robot position. 
+
+```sh
+### **Self-Driving Car Nano Degree Projects** 
+```
 
 **Finding Lane** [(project)](https://github.com/LukePhairatt/SDC-FindingLaneLines-Project1)  
 Video processing to detect lane lines.
@@ -95,6 +102,9 @@ The project presents the implementation of behavior planning and spline line tra
 The project implements FCN for the detection of 'Road' and 'Not Road' pixels in the images. FCN utilises VGG-16 model with encoding and decoding with skip layers on the pre-trained VGG model.
 
 
+```sh
+### **Robotics and AI Projects** 
+```
 **ROS Robot Development** [(project)](https://github.com/LukePhairatt/ROSRPiArduinoProject)  
 The development of a differential drive robot base with a depth RGB camera running ROS. The robot motor drive is controlled by Arduino. ROS Arduino serial interface, navigation stack, and vision modules are running on RPi2.  
 
